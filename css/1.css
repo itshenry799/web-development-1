@@ -21,6 +21,7 @@ ul>li
 {
 display: inline-block;
 margin-right: 52px;
+/* list-style-type:none ; yadi float: left or right use gare; */
 
 }
 ul>li>a
