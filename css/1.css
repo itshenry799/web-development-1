@@ -7,7 +7,7 @@
 /* go healthy heading lai decorate garna juna hamro nav  bar ma xa */
 .menu_heading
 {
-    color: green;
+    color: rgb(4, 219, 4);
     font-size: 40px;
 }
 /* nav tag lai select garera flex property use garna */
@@ -15,18 +15,181 @@ nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
+    position: sticky;
     
 }
-ul>li
+.nav-ul-li
 {
 display: inline-block;
 margin-right: 52px;
 /* list-style-type:none ; yadi float: left or right use gare; */
 
 }
-ul>li>a
+.nav-ul-li-a
 {
     color:black;
     text-decoration: none;
     font-size:larger;
+}
+
+/* background image set */
+.eat-healthy-bg
+{
+    background: url(../img/background\ image1.png);
+    padding-top: 744px;
+    text-align: center;
+    position: relative;
+}
+/* background image mathi text ani button rakheko by parent lai relative ani child lai absolute garera */
+.eat-healthy-txt-center
+{
+    position: absolute;
+  
+    left:480px;
+    top:210px;
+}
+/* design text and button of .eat-healthy-bg */
+.eat-healthy-txt-center h1{
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.eat-healthy-txt-center>h2
+{
+    color: #69C401;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.pbtn
+{
+    border-radius:50rem;
+    background-color: #75e037;
+    border-color: #5eda16;
+    font-size: 1rem;
+    color:white;
+    padding: 22px;
+    text-align: center;
+    margin-top: 2rem;
+}
+/* design how it works text and image underline */
+.how-it-works
+
+{
+text-align: center;
+font-size: 24px;
+margin-top: 44px;
+}
+
+/* design of a video section */
+.video-section
+{
+    text-align: center;
+    /* text align center le video lai kasari center ma lagayo???*/
+}
+.video-section>iframe
+{
+    margin-top: 44px;
+    margin-bottom: 28px;
+}
+/* design of browse healthy recipes, Design a
+Meal Plan,Browse
+Helathy Recipes*/
+.healthy-recipes
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 44px;
+    margin-left: 333px;
+    margin-bottom: 44px;
+}
+.text-section>h1
+{
+    font-size: 30px;
+    font-weight: 700;
+    color: #343a40;
+}
+.text-section>h2
+{
+    font-size: 30px;
+    font-weight: 700;
+    color:#69C401;
+}
+.text-section>p
+{
+    font-size: 20px;
+    font-weight: 700;
+    color:#727272;
+    margin-top: 22px;
+    margin-bottom: 50px;
+}
+
+.text-section
+{
+   
+    padding-left: 44px;
+    padding-right: 94px;
+}
+
+
+/* design of left and right section of  Specaility meal plans */
+.meal-plans
+{
+display: flex;
+margin-top: 44px;
+
+}
+.left-section
+{
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    padding-left: 199px;
+    width: 644px;;
+    margin-right: 44px;
+}
+.left-section>h1
+{
+    font-size: 30px;
+    font-weight: 700;
+    color: #343a40;
+}
+.left-section>p
+{
+    font-size: 20px;
+    font-weight: 700;
+    color:#727272;
+    /* padding-right: 260px; */
+    margin-top: 20px;
+   
+}
+
+.mealplan-right-section
+{
+
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    column-gap:30px;
+    row-gap: 35px;
+}
+.item
+{
+    position: relative;
+}
+.meal-txt
+{
+    border: 1px solid #dee2e6;
+    border-radius: 1rem;
+    background-color: #fff; 
+    font-size: 20px;
+    font-weight: bold;
+    padding: 17px;
+    color: #6dda2f;
+  position: absolute;
+  top:190px;
+  left:-18px;
+
+  
+
 }
