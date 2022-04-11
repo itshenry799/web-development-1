@@ -1,200 +1,230 @@
- *
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 /* go healthy heading lai decorate garna juna hamro nav  bar ma xa */
-.menu_heading
-{
-    color: rgb(4, 219, 4);
-    font-size: 40px;
+.menu_heading {
+  color: rgb(4, 219, 4);
+  font-size: 40px;
 }
 /* nav tag lai select garera flex property use garna */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    position: sticky;
-    
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
 }
-.nav-ul-li
-{
-display: inline-block;
-margin-right: 52px;
-/* list-style-type:none ; yadi float: left or right use gare; */
-
+.nav-ul-li {
+  display: inline-block;
+  margin-right: 52px;
+  /* list-style-type:none ; yadi float: left or right use gare; */
 }
-.nav-ul-li-a
-{
-    color:black;
-    text-decoration: none;
-    font-size:larger;
+.nav-ul-li-a {
+  color: black;
+  text-decoration: none;
+  font-size: larger;
 }
 
 /* background image set */
-.eat-healthy-bg
-{
-    background: url(../img/background\ image1.png);
-    padding-top: 744px;
-    text-align: center;
-    position: relative;
+.eat-healthy-bg {
+  background: url(../img/background\ image1.png);
+  padding-top: 744px;
+  text-align: center;
+  position: relative;
 }
 /* background image mathi text ani button rakheko by parent lai relative ani child lai absolute garera */
-.eat-healthy-txt-center
-{
-    position: absolute;
-  
-    left:480px;
-    top:210px;
+.eat-healthy-txt-center {
+  position: absolute;
+
+  left: 480px;
+  top: 210px;
 }
 /* design text and button of .eat-healthy-bg */
-.eat-healthy-txt-center h1{
-    font-size: 4.5rem;
-    font-weight: 300;
-    line-height: 1.2;
+.eat-healthy-txt-center h1 {
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
-.eat-healthy-txt-center>h2
-{
-    color: #69C401;
-    font-size: 3.5rem;
-    font-weight: 300;
-    line-height: 1.2;
+.eat-healthy-txt-center > h2 {
+  color: #69c401;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
-.pbtn
-{
-    border-radius:50rem;
-    background-color: #75e037;
-    border-color: #5eda16;
-    font-size: 1rem;
-    color:white;
-    padding: 22px;
-    text-align: center;
-    margin-top: 2rem;
-    /* hidden  default border of a button */
-    border:none;
+.pbtn {
+  border-radius: 50rem;
+  background-color: #75e037;
+  border-color: #5eda16;
+  font-size: 1rem;
+  color: white;
+  padding: 22px;
+  text-align: center;
+  margin-top: 2rem;
+  /* hidden  default border of a button */
+  border: none;
 }
 /* design how it works text and image underline */
-.how-it-works
-
+.how-it-works {
+    display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  font-size: 24px;
+  margin-top: 44px;
+}
+.how-it-works>h2
 {
-text-align: center;
-font-size: 24px;
-margin-top: 44px;
+    font-size: 44px;
+    margin-bottom: 24px;
+}
+.how-it-works>p
+{
+    padding-left: 280px;
+    padding-right: 280px;
+    /* justify text align garepaxi equal garauxa border haru ma text */
+    text-align: justify;
+    font-size: 20px;
+    color: #727272;
+    margin-bottom: 44px;
 }
 
 /* design of a video section */
-.video-section
-{
-    text-align: center;
-    /* text align center le video lai kasari center ma lagayo???*/
+.video-section {
+  text-align: center;
+  /* text align center le video lai kasari center ma lagayo???*/
 }
-.video-section>iframe
-{
-    margin-top: 44px;
-    margin-bottom: 28px;
+.video-section > iframe {
+  margin-top: 44px;
+  margin-bottom: 28px;
 }
 /* design of browse healthy recipes, Design a
-Meal Plan,Browse
-Helathy Recipes*/
-.healthy-recipes
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 44px;
-    margin-left: 333px;
-    margin-bottom: 44px;
-}
-.text-section>h1
-{
-    font-size: 30px;
-    font-weight: 700;
-    color: #343a40;
-}
-.text-section>h2
-{
-    font-size: 30px;
-    font-weight: 700;
-    color:#69C401;
-}
-.text-section>p
-{
-    font-size: 20px;
-    font-weight: 700;
-    color:#727272;
-    margin-top: 22px;
-    margin-bottom: 50px;
+Meal Plan,Browse ,create a grocery list*/
+.healthy-recipes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+  margin-left: 240px;
+  margin-bottom: 44px;
+  margin-right: 44px;
+  gap: 44px;
 }
 
-.text-section
-{
-   
-    padding-left: 44px;
-    padding-right: 94px;
+.text-section {
+    /* yeha hamile display flex property ra padding use garera equal easy le garna sakxma */
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 44px;
+  padding-right: 234px;
+
+
 }
+.text-section > h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #343a40;
+}
+.text-section > h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #69c401;
+}
+.text-section > p {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  font-size: 17px;
+  font-weight: 700;
+  color: #727272;
+  text-align: justify;
+  
+}
+
 
 
 /* design of left and right section of  Specaility meal plans */
-.meal-plans
-{
-display: flex;
-margin-top: 44px;
-background:url(../img/bgimg2.jpg);
-background-repeat: no-repeat;
-background-position-x:left;
-background-position-y: bottom;
+.meal-plans {
+  display: flex;
+  margin-top: 44px;
+  background: url(../img/bgimg2.jpg);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
 }
-.left-section
-{
-    /* border: 2px solid black; */
-    /* text-align: center; */
-    padding-left: 199px;
-    width: 644px;;
-    margin-right: 44px;
+.left-section {
+  /* border: 2px solid black; */
+  /* text-align: center; */
+  padding-left: 199px;
+  width: 644px;
+  margin-right: 44px;
 }
-.left-section>h1
-{
-    font-size: 30px;
-    font-weight: 700;
-    color: #343a40;
+.left-section > h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #343a40;
 }
-.left-section>p
-{
-    font-size: 20px;
-    font-weight: 700;
-    color:#727272;
-    /* padding-right: 260px; */
-    margin-top: 20px;
-   
+.left-section > p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #727272;
+  /* padding-right: 260px; */
+  margin-top: 20px;
 }
 
-.mealplan-right-section
-{
-
-    /* border: 2px solid black; */
-    display: grid;
-    grid-template-columns:repeat(2,1fr);
-    column-gap:30px;
-    row-gap: 35px;
+.mealplan-right-section {
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  row-gap: 35px;
 }
-.item
-{
-    position: relative;
+.item {
+  position: relative;
 }
-.meal-txt
-{
-    border: 1px solid #dee2e6;
-    border-radius: 1rem;
-    background-color: #fff; 
-    font-size: 20px;
-    font-weight: bold;
-    padding: 17px;
-    color: #6dda2f;
+.meal-txt {
+  border: 1px solid #dee2e6;
+  border-radius: 1rem;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 17px;
+  color: #6dda2f;
   position: absolute;
-  top:190px;
-  left:-18px;
-
-  
-
+  top: 190px;
+  left: -18px;
 }
+
+/* design of featured recipies */
+.featured-recipies {
+  margin-top: 44px;
+  margin-left: 110px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 28px;
+  width: 940px;
+  margin-bottom: 84px;
+}
+.cardtxt > h1 {
+  margin-top: -4px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: #5eda16;
+  border: 2px solid whitesmoke;
+  height: 98px;
+  width: 360px;
+  font-size: 20px;
+  padding: 14px;
+}
+.card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 60px;
+  padding-right: 30px;
+  margin-top: -10px;
+  height: 50px;
+  width: 360px;
+  background-color:rgb(247,247,247);
+  color:rgb(160,160,162);
+}
+/* https://fontawesome.com/search?s=solid%2Cbrands website used for icons */
