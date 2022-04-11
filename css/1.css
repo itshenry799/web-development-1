@@ -1,4 +1,4 @@
-*
+ *
 {
     margin: 0;
     padding: 0;
@@ -71,6 +71,8 @@ margin-right: 52px;
     padding: 22px;
     text-align: center;
     margin-top: 2rem;
+    /* hidden  default border of a button */
+    border:none;
 }
 /* design how it works text and image underline */
 .how-it-works
@@ -138,7 +140,10 @@ Helathy Recipes*/
 {
 display: flex;
 margin-top: 44px;
-
+background:url(../img/bgimg2.jpg);
+background-repeat: no-repeat;
+background-position-x:left;
+background-position-y: bottom;
 }
 .left-section
 {
