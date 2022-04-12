@@ -5,7 +5,7 @@
 }
 /* go healthy heading lai decorate garna juna hamro nav  bar ma xa */
 .menu_heading {
-  color: rgb(4, 219, 4);
+  color: rgb(233, 27, 213);
   font-size: 40px;
 }
 /* nav tag lai select garera flex property use garna */
@@ -28,7 +28,7 @@ nav {
 
 /* background image set */
 .eat-healthy-bg {
-  background: url(../img/background\ image1.png);
+  background: url(../img/bg.jpg);
   padding-top: 744px;
   text-align: center;
   position: relative;
