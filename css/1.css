@@ -28,7 +28,7 @@ nav {
 
 /* background image set */
 .eat-healthy-bg {
-  background: url(../img/bg.jpg);
+  background: url(../img/pexels-toni-cuenca-566888.jpg);
   padding-top: 744px;
   text-align: center;
   position: relative;
@@ -92,7 +92,7 @@ nav {
 /* design of a video section */
 .video-section {
   text-align: center;
-  /* text align center le video lai kasari center ma lagayo???*/
+  /* text align center le video lai kasari center ma lagayo?*/
 }
 .video-section > iframe {
   margin-top: 44px;
